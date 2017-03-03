@@ -124,7 +124,7 @@ class Bot:
         r = praw.Reddit(client_id=self.CLIENT_ID,
                         client_secret=self.CLIENT_SECRET,
                         redirect_uri=self.REDIRECT_URI,
-                        user_agent='GDT bot made by /u/DetectiveWoofles and /u/avery_crudeman, implemented for /r/Reds by /u/VERYstuck')
+                        user_agent=self.USER_AGENT)
         
         r.refresh_access_information(self.REFRESH_TOKEN)        
 
