@@ -76,6 +76,7 @@ Modules being used:
 
 ###v3.0.2
 * Fixed crash caused by Reddit updating PRAW from version 3 to version 4
+	* update settings.json and main.py with 
 
 ####v3.0.1
 * Now uses OAuth!
