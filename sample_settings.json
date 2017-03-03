@@ -2,6 +2,7 @@
     "CLIENT_ID": "XXX",
     "CLIENT_SECRET": "XXX",
     "REDIRECT_URI": "http://127.0.0.1:65010/authorize_callback",
+    "USER_AGENT": "GDT bot made by /u/DetectiveWoofles and /u/avery_crudeman, implemented by /u/VERYstuck",
     "REFRESH_TOKEN": "XXX",
     "BOT_TIME_ZONE": "ET",
     "TEAM_TIME_ZONE": "ET",
