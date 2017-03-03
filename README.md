@@ -81,6 +81,7 @@ Modules being used:
 		* Added self.USER_AGENT to main.py
 		* Altered call to praw in setup.py and /src/main.py by removing r.set_oauth_app_infoj
 		* Changed r.get_subreddit() to r.subreddit()
+		
 ####v3.0.1
 * Now uses OAuth!
 
