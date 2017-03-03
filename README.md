@@ -76,8 +76,11 @@ Modules being used:
 
 ###v3.0.2
 * Fixed crash caused by Reddit updating PRAW from version 3 to version 4
-	* update settings.json and main.py with 
-
+	* updated setup.py, /src/settings.json, and /src/main.py with following changes:
+		* Added USER_AGENT to settings.json (under redirect URI)
+		* Added self.USER_AGENT to main.py
+		* Altered call to praw in setup.py and /src/main.py by removing r.set_oauth_app_infoj
+		* Changed r.get_subreddit() to r.subreddit()
 ####v3.0.1
 * Now uses OAuth!
 
